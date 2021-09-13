@@ -1,0 +1,25 @@
+{
+  "name": "idea-box-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/balum-code/idea-box.api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balum-code/idea-box.api/issues"
+  },
+  "homepage": "https://github.com/balum-code/idea-box.api#readme",
+  "dependencies": {
+    "mysql2": "^2.3.0",
+    "sequelize": "file:node_modules/sequelize",
+    "sequelize-cli": "^6.2.0"
+  }
+}
